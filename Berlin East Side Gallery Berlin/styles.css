@@ -1,0 +1,395 @@
+#frontTitle {
+	margin-top: 15%;
+	font-size: 48px;
+}
+
+.frontNav {
+	font-family: 'Didact Gothic';
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	margin-top: 70px;
+}
+
+.frontNav ul {
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 5px;
+}
+
+.frontNav li {
+	display: inline;
+}
+
+.frontNav a {
+	text-decoration: none;
+	color: #6b6665;
+	font-size: 40px;
+	font-family: 'Didact Gothic';
+	transition: 0.4s;
+	width: 200px;
+	display: inline-block;
+	padding: 0px 40px;
+}
+
+.frontNavHover::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 4px;
+	background: #77e0e0;
+	transition: width 0.3s;
+}
+
+.frontNavHover:hover::after {
+	width: 100%;
+}
+
+@media screen and (max-width: 909px) {
+	.frontNav {
+		top: 65%;
+		left: 0;
+		transform: none;
+		text-align: center;
+		position: absolute;
+	}
+	.frontNav a {
+		font-size: 25px;
+		width: 80%;
+		padding: 0px 40px;
+		display: inline-block;
+	}
+	.text {
+		margin: 0;
+		padding: 0;
+	}
+	iframe {
+		margin: 0 auto;
+		width: 100%;
+		height: 200px;
+		max-width: 640px;
+	}
+	.bookPara {
+		display: inline-block;
+		background: #dbf1ff;
+		color: #636363;
+		width: 250px;
+		height: auto;
+		margin-top: 10px;
+		padding: 10px;
+	}
+
+	.bookPara2 {
+		display: inline-block;
+		background: #dbf1ff;
+		color: #636363;
+		width: 250px;
+		height: auto;
+		margin-top: 10px;
+		padding: 10px;
+	}
+	.photoDescription {
+		font-size: 13px;
+		margin-left: 0;
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 910px) {
+	p {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	iframe {
+		margin: 0 auto;
+		width: 100%;
+		height: 390px;
+		max-width: 640px;
+	}
+	.bookPara {
+		display: inline-block;
+		background: #dbf1ff;
+		color: #636363;
+		width: 250px;
+		height: 300px;
+		margin-top: 120px;
+	}
+
+	.bookPara2 {
+		display: inline-block;
+		background: #dbf1ff;
+		color: #636363;
+		width: 250px;
+		height: 110px;
+		margin-top: 290px;
+	}
+	.photoDescription {
+		font-size: 13px;
+		margin-left: 20px;
+		padding: 0;
+	}
+}
+
+header {
+	padding: 8px;
+}
+
+article {
+	margin-top: 120px;
+}
+
+.nav {
+	float: right;
+}
+
+.nav ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 5px;
+	float: right;
+	display: inline;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #6b6665;
+	width: 100px;
+	display: inline-block;
+	font-size: 18px;
+	font-family: 'Didact Gothic';
+}
+
+.navHover::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #77e0e0;
+	transition: width 0.3s;
+}
+
+.navHover:hover::after {
+	width: 100%;
+}
+
+.nav a.active {
+	border-bottom: 2px solid #77e0e0;
+	color: #77e0e0;
+}
+
+.title {
+	font-family: 'Didact Gothic';
+	justify-content: center;
+	margin: 2px;
+	font-size: 45px;
+}
+
+h2 {
+	font-family: 'Didact Gothic';
+	text-align: center;
+}
+
+#contactHead {
+	text-decoration-color: #77e0e0;
+	-webkit-text-decoration-color: blue;
+}
+
+.heading {
+	font-size: 24px;
+	font-family: 'Didact Gothic';
+	text-decoration: underline;
+	text-decoration-color: #77e0e0;
+}
+
+p {
+	font-family: 'Didact Gothic';
+	font-size: 20px;
+}
+
+a:link#interview {
+	font-family: 'Didact Gothic';
+	font-weight: bold;
+	padding-left: 50px;
+	font-size: 18px;
+	margin-top: 10px;
+	color: #000000;
+}
+
+a:visited#interview {
+	color: #000000;
+}
+
+a:hover#interview {
+	color: #77e0e0;
+}
+
+a:link#video2 {
+	font-family: 'Didact Gothic';
+	font-weight: bold;
+	font-size: 15.5px;
+	margin-top: 10px;
+	margin-left: 15px;
+	color: #000000;
+}
+
+a:visited#video2 {
+	color: #000000;
+}
+
+a:hover#video2 {
+	color: #77e0e0;
+}
+
+body {
+	margin: 18px;
+	padding: 6px;
+	background-color: #f7f7f7;
+}
+
+.pic {
+	display: table;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-family: 'Didact Gothic';
+	text-align: center;
+	font-size: 46px;
+	position: relative;
+}
+
+.homeBtn {
+	background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	text-decoration: none;
+}
+
+form {
+	height: 290px;
+	font-family: 'Didact Gothic';
+	transition: all 1s ease-in-out;
+	text-align: center;
+	margin-top: 0;
+}
+
+.form-control {
+	max-width: 600px;
+	width: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #000;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+input {
+	height: 45px;
+	font-family: 'Didact Gothic';
+}
+
+textarea {
+	height: 75px;
+	font-family: 'Didact Gothic';
+}
+
+form .submit {
+	background: #acadad;
+	border-color: transparent;
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 40px;
+	margin-top: 12px;
+	font-family: 'Didact Gothic';
+	text-align: center;
+}
+
+form .submit:hover {
+	background-color: #77e0e0;
+	cursor: pointer;
+	color: #fff;
+}
+
+.div1 {
+	float: left;
+	width: 655px;
+	margin-top: 30px;
+	text-align: center;
+	height: auto;
+}
+
+.div2 {
+	margin-top: 5px;
+	float: left;
+	height: auto;
+	width: 600px;
+	text-align: center;
+}
+
+.footerDiv {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 10px auto;
+	position: relative;
+}
+
+#tagline {
+	padding-left: 0;
+	padding-right: 0;
+	font-family: 'Didact Gothic';
+	text-align: center;
+	font-size: 18px;
+}
+
+.book {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 10px auto;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.bodShopWidget {
+	margin-right: 10px;
+}
+
+.bookImgDiv {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.pseudo_border {
+	position: relative;
+}
+
+.pseudo_border:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 75%;
+	margin: 10px auto;
+	width: 18%;
+	height: 2px;
+	background: #77e0e0;
+}
